@@ -11,7 +11,7 @@ A simple and modern web application built with **Vite** and **React** to generat
 
 ## Demo
 
-You can try out the live demo of this application [here](https://qr-code-generator.vercel.app).
+You can try out the live demo of this application [here](https://qr-code-generator-eight-olive.vercel.app/).
 
 ## Screenshots
 
