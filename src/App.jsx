@@ -12,7 +12,7 @@ const App = () => {
       return;
     }
 
-    const filename = isDynamic ? qrValue || 'dynamic-qr' : 'Rebrandic';
+    const filename = isDynamic ? qrValue || 'dynamic-qr' : 'Mitul';
 
     qrRef.current.style.border = 'none';
 
@@ -62,7 +62,7 @@ const App = () => {
 
         <div className="flex justify-center mb-4">
           <div ref={qrRef} className="p-4 bg-gray-50 rounded-lg border-2 border-transparent">
-            <QRCode value={isDynamic && qrValue ? qrValue : 'https://www.rebrandic.com/'} />
+            <QRCode value={isDynamic && qrValue ? qrValue : 'https://www.linkedin.com/in/jagadmitul/'} />
           </div>
         </div>
 
